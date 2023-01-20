@@ -5,6 +5,7 @@ def throw_dice(n_faces=6):
   outcome = random.randint(1,n_faces)
   return outcome
 
+
 def sum_throw_two_dices(n_faces=6):
   '''add sum of two dices thow '''
   outcome = random.randint(1,n_faces) + random.randint(1,n_faces)
